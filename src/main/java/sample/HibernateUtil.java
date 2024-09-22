@@ -20,7 +20,7 @@ public class HibernateUtil {
                 configuration.setProperty("hibernate.connection.username", "root");
                 configuration.setProperty("hibernate.connection.password", "Qwertyuiop1234567890");
                 configuration.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
-                configuration.setProperty("hibernate.show_sql", "true");
+//                configuration.setProperty("hibernate.show_sql", "true");
                 configuration.setProperty("hibernate.format_sql", "true");
                 configuration.setProperty("hibernate.hbm2ddl.auto", "update");
                 configuration.setProperty("hibernate.current_session_context_class", "thread");

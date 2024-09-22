@@ -6,4 +6,5 @@ module apiReader {
     requires jakarta.persistence;
     requires lombok;
     requires java.naming;
+    requires com.google.gson;
 }
