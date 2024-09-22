@@ -1,0 +1,6 @@
+.wrong{
+    -fx-fill: #FF0000;
+}
+.correct {
+    -fx-fill: #00FF00;
+}
